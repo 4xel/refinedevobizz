@@ -1,0 +1,22 @@
+{
+  "author": "Ryan de Gruyter",
+  "manifest_version": 2,
+  "name": "Refined EvoBizz",
+  "description": "This extension will fill in your timesheets with default values",
+  "minimum_chrome_version": "49",
+  "content_scripts": [
+    {
+      "run_at": "document_start",
+      "matches": ["https://evobizz.ordina.be/start.asp/*"],
+      "js": [
+        "vendor/jquery.min.js",
+        "content.js"
+      ]
+    }
+  ],
+  "browser_action": {
+    "default_icon": "jworks.png",
+    "default_popup": "popup.html"
+  },
+  "version": "0.1"
+}

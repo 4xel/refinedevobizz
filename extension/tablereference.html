@@ -1,0 +1,4217 @@
+<tbody>
+<tr>
+    <td bgcolor="khaki" align="center" rowspan="2" valign="center"><font size="2">Dag</font></td>
+    <td bgcolor="khaki" align="center" rowspan="2" valign="center"><font size="2">Opmerking</font></td>
+    <td bgcolor="khaki" align="center" colspan="6" nowrap=""><font size="2">&nbsp;&nbsp;Prestaties&nbsp;&nbsp;</font>
+    </td>
+    <td bgcolor="khaki" align="center" rowspan="2" valign="center"><font size="2">Afwezigh.<br>Uren Code</font></td>
+    <!--<TD bgColor=khaki align="center" colspan="2" nowrap><FONT size=2>&nbsp;Kosten Ordina&nbsp;</FONT></TD>-->
+</tr>
+
+<tr>
+    <td bgcolor="khaki" align="center" nowrap=""><font size="2">Uren</font></td>
+    <td bgcolor="khaki" align="center" nowrap=""><font size="2">Type</font></td>
+    <td bgcolor="khaki" align="center" nowrap=""><font size="2">&nbsp;Extra Info&nbsp;</font></td>
+    <td bgcolor="khaki" align="center" nowrap=""><font size="2">Uren</font></td>
+    <td bgcolor="khaki" align="center" nowrap=""><font size="2">Type</font></td>
+    <td bgcolor="khaki" align="center" nowrap=""><font size="2">&nbsp;Extra Info&nbsp;</font></td>
+    <!--<TD bgColor=khaki align="center" width=1% nowrap><FONT size=2>Alg.</FONT></TD>
+    <TD bgColor=khaki align="center" width=1% nowrap><FONT size=2>Km</FONT></TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Vr 1
+        <input type="hidden" id="EVOA0" name="EVOA0" value="1">
+        <input type="hidden" id="EVOY0" name="EVOY0" value="4">
+        <input type="hidden" id="EVOZ0" name="EVOZ0" value="2016">
+        <input type="hidden" id="EVOB0" name="EVOB0" value="1">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC0" name="EVOC0" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD0" name="EVOD0" size="2" maxlength="5" style="background-color:lightgoldenrodyellow"
+               value="8:00">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE0" name="EVOE0" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH
+            </option>
+            <option selected="" value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK0" name="EVOK0" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM0" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF0" name="EVOF0" size="2" maxlength="5" style="background-color:lightgoldenrodyellow"
+               value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG0" name="EVOG0" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL0" name="EVOL0" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON0" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH0" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI0" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ0" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="#ffff66" align="center"><font size="2">Za 2
+        <input type="hidden" id="EVOA1" name="EVOA1" value="2">
+        <input type="hidden" id="EVOY1" name="EVOY1" value="4">
+        <input type="hidden" id="EVOZ1" name="EVOZ1" value="2016">
+        <input type="hidden" id="EVOB1" name="EVOB1" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=#ffff66>-->
+
+
+    <td bgcolor="#ffff66">
+        <input type="text" size="20" maxlength="64" id="EVOC1" name="EVOC1" value="" style="background-color:#ffff66">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOD1" name="EVOD1" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOE1" name="EVOE1" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOK1" name="EVOK1" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM1" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOF1" name="EVOF1" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOG1" name="EVOG1" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOL1" name="EVOL1" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON1" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="#ffff66" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOH1" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOI1" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    <INPUT type=hidden name="EVOJ1" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="#ffff66" align="center"><font size="2">Zo 3
+        <input type="hidden" id="EVOA2" name="EVOA2" value="3">
+        <input type="hidden" id="EVOY2" name="EVOY2" value="4">
+        <input type="hidden" id="EVOZ2" name="EVOZ2" value="2016">
+        <input type="hidden" id="EVOB2" name="EVOB2" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=#ffff66>-->
+
+
+    <td bgcolor="#ffff66">
+        <input type="text" size="20" maxlength="64" id="EVOC2" name="EVOC2" value="" style="background-color:#ffff66">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOD2" name="EVOD2" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOE2" name="EVOE2" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOK2" name="EVOK2" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM2" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOF2" name="EVOF2" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOG2" name="EVOG2" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOL2" name="EVOL2" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON2" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="#ffff66" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOH2" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOI2" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    <INPUT type=hidden name="EVOJ2" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Ma 4
+        <input type="hidden" id="EVOA3" name="EVOA3" value="4">
+        <input type="hidden" id="EVOY3" name="EVOY3" value="4">
+        <input type="hidden" id="EVOZ3" name="EVOZ3" value="2016">
+        <input type="hidden" id="EVOB3" name="EVOB3" value="1">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC3" name="EVOC3" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD3" name="EVOD3" size="2" maxlength="5" style="background-color:lightgoldenrodyellow"
+               value="8:00">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE3" name="EVOE3" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH
+            </option>
+            <option selected="" value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK3" name="EVOK3" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM3" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF3" name="EVOF3" size="2" maxlength="5" style="background-color:lightgoldenrodyellow"
+               value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG3" name="EVOG3" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL3" name="EVOL3" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON3" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH3" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI3" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ3" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Di 5
+        <input type="hidden" id="EVOA4" name="EVOA4" value="5">
+        <input type="hidden" id="EVOY4" name="EVOY4" value="4">
+        <input type="hidden" id="EVOZ4" name="EVOZ4" value="2016">
+        <input type="hidden" id="EVOB4" name="EVOB4" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC4" name="EVOC4" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD4" name="EVOD4" size="2" maxlength="5" style="background-color:lightgoldenrodyellow"
+               value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE4" name="EVOE4" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK4" name="EVOK4" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM4" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF4" name="EVOF4" size="2" maxlength="5" style="background-color:lightgoldenrodyellow"
+               value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG4" name="EVOG4" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL4" name="EVOL4" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON4" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH4" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI4" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ4" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Wo 6
+        <input type="hidden" id="EVOA5" name="EVOA5" value="6">
+        <input type="hidden" id="EVOY5" name="EVOY5" value="4">
+        <input type="hidden" id="EVOZ5" name="EVOZ5" value="2016">
+        <input type="hidden" id="EVOB5" name="EVOB5" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC5" name="EVOC5" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD5" name="EVOD5" size="2" maxlength="5" style="background-color:lightgoldenrodyellow"
+               value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE5" name="EVOE5" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK5" name="EVOK5" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM5" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF5" name="EVOF5" size="2" maxlength="5" style="background-color:lightgoldenrodyellow"
+               value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG5" name="EVOG5" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL5" name="EVOL5" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON5" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH5" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI5" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ5" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Do 7
+        <input type="hidden" id="EVOA6" name="EVOA6" value="7">
+        <input type="hidden" id="EVOY6" name="EVOY6" value="4">
+        <input type="hidden" id="EVOZ6" name="EVOZ6" value="2016">
+        <input type="hidden" id="EVOB6" name="EVOB6" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC6" name="EVOC6" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD6" name="EVOD6" size="2" maxlength="5" style="background-color:lightgoldenrodyellow"
+               value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE6" name="EVOE6" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK6" name="EVOK6" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM6" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF6" name="EVOF6" size="2" maxlength="5" style="background-color:lightgoldenrodyellow"
+               value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG6" name="EVOG6" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL6" name="EVOL6" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON6" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH6" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI6" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ6" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Vr 8
+        <input type="hidden" id="EVOA7" name="EVOA7" value="8">
+        <input type="hidden" id="EVOY7" name="EVOY7" value="4">
+        <input type="hidden" id="EVOZ7" name="EVOZ7" value="2016">
+        <input type="hidden" id="EVOB7" name="EVOB7" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC7" name="EVOC7" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD7" name="EVOD7" size="2" maxlength="5" style="background-color:lightgoldenrodyellow"
+               value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE7" name="EVOE7" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK7" name="EVOK7" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM7" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF7" name="EVOF7" size="2" maxlength="5" style="background-color:lightgoldenrodyellow"
+               value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG7" name="EVOG7" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL7" name="EVOL7" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON7" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH7" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI7" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ7" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="#ffff66" align="center"><font size="2">Za 9
+        <input type="hidden" id="EVOA8" name="EVOA8" value="9">
+        <input type="hidden" id="EVOY8" name="EVOY8" value="4">
+        <input type="hidden" id="EVOZ8" name="EVOZ8" value="2016">
+        <input type="hidden" id="EVOB8" name="EVOB8" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=#ffff66>-->
+
+
+    <td bgcolor="#ffff66">
+        <input type="text" size="20" maxlength="64" id="EVOC8" name="EVOC8" value="" style="background-color:#ffff66">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOD8" name="EVOD8" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOE8" name="EVOE8" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOK8" name="EVOK8" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM8" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOF8" name="EVOF8" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOG8" name="EVOG8" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOL8" name="EVOL8" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON8" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="#ffff66" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOH8" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOI8" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    <INPUT type=hidden name="EVOJ8" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="#ffff66" align="center"><font size="2">Zo 10
+        <input type="hidden" id="EVOA9" name="EVOA9" value="10">
+        <input type="hidden" id="EVOY9" name="EVOY9" value="4">
+        <input type="hidden" id="EVOZ9" name="EVOZ9" value="2016">
+        <input type="hidden" id="EVOB9" name="EVOB9" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=#ffff66>-->
+
+
+    <td bgcolor="#ffff66">
+        <input type="text" size="20" maxlength="64" id="EVOC9" name="EVOC9" value="" style="background-color:#ffff66">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOD9" name="EVOD9" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOE9" name="EVOE9" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOK9" name="EVOK9" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM9" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOF9" name="EVOF9" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOG9" name="EVOG9" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOL9" name="EVOL9" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON9" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="#ffff66" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOH9" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOI9" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    <INPUT type=hidden name="EVOJ9" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Ma 11
+        <input type="hidden" id="EVOA10" name="EVOA10" value="11">
+        <input type="hidden" id="EVOY10" name="EVOY10" value="4">
+        <input type="hidden" id="EVOZ10" name="EVOZ10" value="2016">
+        <input type="hidden" id="EVOB10" name="EVOB10" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC10" name="EVOC10" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD10" name="EVOD10" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE10" name="EVOE10" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK10" name="EVOK10" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM10" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF10" name="EVOF10" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG10" name="EVOG10" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL10" name="EVOL10" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON10" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH10" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI10" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ10" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Di 12
+        <input type="hidden" id="EVOA11" name="EVOA11" value="12">
+        <input type="hidden" id="EVOY11" name="EVOY11" value="4">
+        <input type="hidden" id="EVOZ11" name="EVOZ11" value="2016">
+        <input type="hidden" id="EVOB11" name="EVOB11" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC11" name="EVOC11" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD11" name="EVOD11" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE11" name="EVOE11" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK11" name="EVOK11" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM11" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF11" name="EVOF11" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG11" name="EVOG11" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL11" name="EVOL11" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON11" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH11" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI11" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ11" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Wo 13
+        <input type="hidden" id="EVOA12" name="EVOA12" value="13">
+        <input type="hidden" id="EVOY12" name="EVOY12" value="4">
+        <input type="hidden" id="EVOZ12" name="EVOZ12" value="2016">
+        <input type="hidden" id="EVOB12" name="EVOB12" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC12" name="EVOC12" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD12" name="EVOD12" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE12" name="EVOE12" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK12" name="EVOK12" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM12" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF12" name="EVOF12" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG12" name="EVOG12" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL12" name="EVOL12" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON12" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH12" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI12" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ12" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Do 14
+        <input type="hidden" id="EVOA13" name="EVOA13" value="14">
+        <input type="hidden" id="EVOY13" name="EVOY13" value="4">
+        <input type="hidden" id="EVOZ13" name="EVOZ13" value="2016">
+        <input type="hidden" id="EVOB13" name="EVOB13" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC13" name="EVOC13" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD13" name="EVOD13" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE13" name="EVOE13" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK13" name="EVOK13" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM13" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF13" name="EVOF13" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG13" name="EVOG13" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL13" name="EVOL13" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON13" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH13" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI13" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ13" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Vr 15
+        <input type="hidden" id="EVOA14" name="EVOA14" value="15">
+        <input type="hidden" id="EVOY14" name="EVOY14" value="4">
+        <input type="hidden" id="EVOZ14" name="EVOZ14" value="2016">
+        <input type="hidden" id="EVOB14" name="EVOB14" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC14" name="EVOC14" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD14" name="EVOD14" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE14" name="EVOE14" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK14" name="EVOK14" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM14" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF14" name="EVOF14" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG14" name="EVOG14" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL14" name="EVOL14" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON14" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH14" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI14" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ14" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="#ffff66" align="center"><font size="2">Za 16
+        <input type="hidden" id="EVOA15" name="EVOA15" value="16">
+        <input type="hidden" id="EVOY15" name="EVOY15" value="4">
+        <input type="hidden" id="EVOZ15" name="EVOZ15" value="2016">
+        <input type="hidden" id="EVOB15" name="EVOB15" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=#ffff66>-->
+
+
+    <td bgcolor="#ffff66">
+        <input type="text" size="20" maxlength="64" id="EVOC15" name="EVOC15" value="" style="background-color:#ffff66">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOD15" name="EVOD15" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOE15" name="EVOE15" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOK15" name="EVOK15" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM15" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOF15" name="EVOF15" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOG15" name="EVOG15" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOL15" name="EVOL15" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON15" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="#ffff66" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOH15" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOI15" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    <INPUT type=hidden name="EVOJ15" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="#ffff66" align="center"><font size="2">Zo 17
+        <input type="hidden" id="EVOA16" name="EVOA16" value="17">
+        <input type="hidden" id="EVOY16" name="EVOY16" value="4">
+        <input type="hidden" id="EVOZ16" name="EVOZ16" value="2016">
+        <input type="hidden" id="EVOB16" name="EVOB16" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=#ffff66>-->
+
+
+    <td bgcolor="#ffff66">
+        <input type="text" size="20" maxlength="64" id="EVOC16" name="EVOC16" value="" style="background-color:#ffff66">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOD16" name="EVOD16" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOE16" name="EVOE16" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOK16" name="EVOK16" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM16" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOF16" name="EVOF16" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOG16" name="EVOG16" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOL16" name="EVOL16" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON16" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="#ffff66" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOH16" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOI16" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    <INPUT type=hidden name="EVOJ16" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Ma 18
+        <input type="hidden" id="EVOA17" name="EVOA17" value="18">
+        <input type="hidden" id="EVOY17" name="EVOY17" value="4">
+        <input type="hidden" id="EVOZ17" name="EVOZ17" value="2016">
+        <input type="hidden" id="EVOB17" name="EVOB17" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC17" name="EVOC17" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD17" name="EVOD17" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE17" name="EVOE17" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK17" name="EVOK17" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM17" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF17" name="EVOF17" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG17" name="EVOG17" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL17" name="EVOL17" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON17" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH17" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI17" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ17" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Di 19
+        <input type="hidden" id="EVOA18" name="EVOA18" value="19">
+        <input type="hidden" id="EVOY18" name="EVOY18" value="4">
+        <input type="hidden" id="EVOZ18" name="EVOZ18" value="2016">
+        <input type="hidden" id="EVOB18" name="EVOB18" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC18" name="EVOC18" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD18" name="EVOD18" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE18" name="EVOE18" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK18" name="EVOK18" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM18" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF18" name="EVOF18" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG18" name="EVOG18" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL18" name="EVOL18" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON18" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH18" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI18" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ18" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Wo 20
+        <input type="hidden" id="EVOA19" name="EVOA19" value="20">
+        <input type="hidden" id="EVOY19" name="EVOY19" value="4">
+        <input type="hidden" id="EVOZ19" name="EVOZ19" value="2016">
+        <input type="hidden" id="EVOB19" name="EVOB19" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC19" name="EVOC19" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD19" name="EVOD19" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE19" name="EVOE19" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK19" name="EVOK19" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM19" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF19" name="EVOF19" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG19" name="EVOG19" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL19" name="EVOL19" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON19" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH19" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI19" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ19" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Do 21
+        <input type="hidden" id="EVOA20" name="EVOA20" value="21">
+        <input type="hidden" id="EVOY20" name="EVOY20" value="4">
+        <input type="hidden" id="EVOZ20" name="EVOZ20" value="2016">
+        <input type="hidden" id="EVOB20" name="EVOB20" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC20" name="EVOC20" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD20" name="EVOD20" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE20" name="EVOE20" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK20" name="EVOK20" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM20" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF20" name="EVOF20" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG20" name="EVOG20" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL20" name="EVOL20" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON20" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH20" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI20" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ20" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Vr 22
+        <input type="hidden" id="EVOA21" name="EVOA21" value="22">
+        <input type="hidden" id="EVOY21" name="EVOY21" value="4">
+        <input type="hidden" id="EVOZ21" name="EVOZ21" value="2016">
+        <input type="hidden" id="EVOB21" name="EVOB21" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC21" name="EVOC21" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD21" name="EVOD21" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE21" name="EVOE21" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK21" name="EVOK21" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM21" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF21" name="EVOF21" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG21" name="EVOG21" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL21" name="EVOL21" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON21" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH21" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI21" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ21" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="#ffff66" align="center"><font size="2">Za 23
+        <input type="hidden" id="EVOA22" name="EVOA22" value="23">
+        <input type="hidden" id="EVOY22" name="EVOY22" value="4">
+        <input type="hidden" id="EVOZ22" name="EVOZ22" value="2016">
+        <input type="hidden" id="EVOB22" name="EVOB22" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=#ffff66>-->
+
+
+    <td bgcolor="#ffff66">
+        <input type="text" size="20" maxlength="64" id="EVOC22" name="EVOC22" value="" style="background-color:#ffff66">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOD22" name="EVOD22" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOE22" name="EVOE22" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOK22" name="EVOK22" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM22" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOF22" name="EVOF22" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOG22" name="EVOG22" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOL22" name="EVOL22" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON22" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="#ffff66" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOH22" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOI22" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    <INPUT type=hidden name="EVOJ22" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="#ffff66" align="center"><font size="2">Zo 24
+        <input type="hidden" id="EVOA23" name="EVOA23" value="24">
+        <input type="hidden" id="EVOY23" name="EVOY23" value="4">
+        <input type="hidden" id="EVOZ23" name="EVOZ23" value="2016">
+        <input type="hidden" id="EVOB23" name="EVOB23" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=#ffff66>-->
+
+
+    <td bgcolor="#ffff66">
+        <input type="text" size="20" maxlength="64" id="EVOC23" name="EVOC23" value="" style="background-color:#ffff66">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOD23" name="EVOD23" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOE23" name="EVOE23" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOK23" name="EVOK23" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM23" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOF23" name="EVOF23" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOG23" name="EVOG23" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOL23" name="EVOL23" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON23" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="#ffff66" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOH23" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOI23" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    <INPUT type=hidden name="EVOJ23" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Ma 25
+        <input type="hidden" id="EVOA24" name="EVOA24" value="25">
+        <input type="hidden" id="EVOY24" name="EVOY24" value="4">
+        <input type="hidden" id="EVOZ24" name="EVOZ24" value="2016">
+        <input type="hidden" id="EVOB24" name="EVOB24" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC24" name="EVOC24" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD24" name="EVOD24" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE24" name="EVOE24" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK24" name="EVOK24" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM24" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF24" name="EVOF24" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG24" name="EVOG24" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL24" name="EVOL24" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON24" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH24" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI24" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ24" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Di 26
+        <input type="hidden" id="EVOA25" name="EVOA25" value="26">
+        <input type="hidden" id="EVOY25" name="EVOY25" value="4">
+        <input type="hidden" id="EVOZ25" name="EVOZ25" value="2016">
+        <input type="hidden" id="EVOB25" name="EVOB25" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC25" name="EVOC25" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD25" name="EVOD25" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE25" name="EVOE25" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK25" name="EVOK25" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM25" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF25" name="EVOF25" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG25" name="EVOG25" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL25" name="EVOL25" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON25" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH25" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI25" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ25" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Wo 27
+        <input type="hidden" id="EVOA26" name="EVOA26" value="27">
+        <input type="hidden" id="EVOY26" name="EVOY26" value="4">
+        <input type="hidden" id="EVOZ26" name="EVOZ26" value="2016">
+        <input type="hidden" id="EVOB26" name="EVOB26" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC26" name="EVOC26" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD26" name="EVOD26" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE26" name="EVOE26" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK26" name="EVOK26" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM26" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF26" name="EVOF26" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG26" name="EVOG26" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL26" name="EVOL26" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON26" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH26" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI26" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ26" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Do 28
+        <input type="hidden" id="EVOA27" name="EVOA27" value="28">
+        <input type="hidden" id="EVOY27" name="EVOY27" value="4">
+        <input type="hidden" id="EVOZ27" name="EVOZ27" value="2016">
+        <input type="hidden" id="EVOB27" name="EVOB27" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC27" name="EVOC27" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD27" name="EVOD27" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE27" name="EVOE27" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK27" name="EVOK27" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM27" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF27" name="EVOF27" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG27" name="EVOG27" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL27" name="EVOL27" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON27" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH27" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI27" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ27" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">Vr 29
+        <input type="hidden" id="EVOA28" name="EVOA28" value="29">
+        <input type="hidden" id="EVOY28" name="EVOY28" value="4">
+        <input type="hidden" id="EVOZ28" name="EVOZ28" value="2016">
+        <input type="hidden" id="EVOB28" name="EVOB28" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=lightgoldenrodyellow>-->
+
+
+    <td bgcolor="lightgoldenrodyellow">
+        <input type="text" size="20" maxlength="64" id="EVOC28" name="EVOC28" value=""
+               style="background-color:lightgoldenrodyellow">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOD28" name="EVOD28" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOE28" name="EVOE28" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOK28" name="EVOK28" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM28" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <input type="text" id="EVOF28" name="EVOF28" size="2" maxlength="5"
+               style="background-color:lightgoldenrodyellow" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="lightgoldenrodyellow" align="right">
+
+        <select id="EVOG28" name="EVOG28" style="background-color:lightgoldenrodyellow"
+                onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="lightgoldenrodyellow" align="left" style="width:145;">
+
+
+        <select id="EVOL28" name="EVOL28" style="width:145;background-color:lightgoldenrodyellow" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON28" style="width:145;background-color:lightgoldenrodyellow">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="lightgoldenrodyellow" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOH28" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=lightgoldenrodyellow align="right">
+
+        <INPUT type="text" name="EVOI28" size=5 maxlength=8 style="background-color:lightgoldenrodyellow" value="">
+
+    <INPUT type=hidden name="EVOJ28" value="0">
+    </TD>-->
+</tr>
+
+
+<tr>
+    <!--Day-->
+    <td bgcolor="#ffff66" align="center"><font size="2">Za 30
+        <input type="hidden" id="EVOA29" name="EVOA29" value="30">
+        <input type="hidden" id="EVOY29" name="EVOY29" value="4">
+        <input type="hidden" id="EVOZ29" name="EVOZ29" value="2016">
+        <input type="hidden" id="EVOB29" name="EVOB29" value="0">
+    </font></td>
+    <!--Remarks-->
+
+    <!--<TD bgColor=#ffff66>-->
+
+
+    <td bgcolor="#ffff66">
+        <input type="text" size="20" maxlength="64" id="EVOC29" name="EVOC29" value="" style="background-color:#ffff66">
+    </td>
+
+    <!--Hours 1-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOD29" name="EVOD29" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+        <!--Type 1-->
+    </td>
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOE29" name="EVOE29" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 1-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOK29" name="EVOK29" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVOM29" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+    <!--Hours 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <input type="text" id="EVOF29" name="EVOF29" size="2" maxlength="5" style="background-color:#ffff66" value="">
+
+    </td>
+    <!--Type 2-->
+    <td bgcolor="#ffff66" align="right">
+
+        <select id="EVOG29" name="EVOG29" style="background-color:#ffff66" onchange="SetExtraDetail(this.name)">
+            <option value="COM">COM</option>
+            <option value="ITH">ITH</option>
+            <option value="ITO">ITO</option>
+            <option value="OPL">OPL</option>
+            <option value="OVU">OVU</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+    </td>
+    <!--Opl extra detail 2-->
+    <td bgcolor="#ffff66" align="left" style="width:145;">
+
+
+        <select id="EVOL29" name="EVOL29" style="width:145;background-color:#ffff66" disabled="">
+            <option value="TRF">TRF</option>
+            <option value="TRI">TRI</option>
+            <option value="TRS">TRS</option>
+            <option selected="" value="">&nbsp;
+            </option>
+        </select>
+
+
+        <!-- BEGIN - 10/7/2012 -->
+        <!--
+
+
+            <select name="EVON29" style="width:145;background-color:#ffff66">
+                        <option value="10">CW - Nieuwe werken			<option value="11">MS - Geaut.mobiel systeem			<option value="12">MS - Mobiele appl.industr.toep.			<option value="13">ORA/J - Internet Of Things			<option value="14">Q - IT RA Sq managed service			<option value="15">SAP - Smart Cities Revisited			<option value="16">SCO - Agent gebas.Plann.&Sched.Appl.			<option value="17">TES - Shift left			<option value="18">VW - Def.van Data Science as a service			<option value="1">Mobile & User Experience			<option value="3">UC & Collaboration			<option value="4">Dynamic Delivery			<option value="5">Data & Information			<option value="6">Virtualization & Cloud			<option value="7">Operational Excellence			<option value="8">Risk & Compliancy			<option value="9">Effective Customer Interaction		<option selected value="">&nbsp;
+
+            </select>
+
+
+        -->
+        <!-- END - 10/7/2012 -->
+
+
+    </td>
+
+    <!--Absense-->
+    <td bgcolor="#ffff66" align="center"><font size="2">
+        &nbsp;
+    </font></td>
+    <!--Cost general -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOH29" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    </TD>-->
+    <!--Cost Km -->
+    <!--<TD bgColor=#ffff66 align="right">
+
+        <INPUT type="text" name="EVOI29" size=5 maxlength=8 style="background-color:#ffff66" value="">
+
+    <INPUT type=hidden name="EVOJ29" value="0">
+    </TD>-->
+</tr>
+
+
+<script>
+    var x;
+    var s;
+    var v;
+
+    x = document.forms[0].elements.length - 1
+
+    for (w = 0; w <= x; w++) {
+
+        s = document.forms[0].elements[w].name
+
+        if ((s.charAt(0) == "E") && (s.charAt(1) == "V") && (s.charAt(2) == "O")) {
+
+            if ((s.charAt(3) == "E") || (s.charAt(3) == "G")) {
+
+                var z;
+                //var a;
+
+                if (s.charAt(3) == "E") {
+                    z = s.replace(/EVOE/, "EVOK");
+                    //a=s.replace(/EVOE/, "EVOM");
+                }
+                else {
+                    z = s.replace(/EVOG/, "EVOL");
+                    //a=s.replace(/EVOG/, "EVON");
+                }
+
+                v = document.forms[0].elements[w].value;
+
+                if (v == "OPL") {
+                    /*var z=s.replace(/EVOE/, "EVOK");*/
+                    var y = document.getElementById(z);
+                    y.disabled = false;
+                    //y.style.display="inline";
+
+                    /*var a=s.replace(/EVOE/, "EVOM");*/
+                    //var b=document.getElementById(a);
+                    //b.disabled = true;
+                    //b.style.display="none";
+                }
+                else {
+                    //	if (v=="R&D"){
+                    /*var a=s.replace(/EVOE/, "EVOM");*/
+                    //		var b=document.getElementById(a);
+                    //		b.disabled = false;
+                    //		b.style.display="inline";
+
+                    /*var z=s.replace(/EVOE/, "EVOK");*/
+                    //		var y=document.getElementById(z);
+                    //		y.disabled = true;
+                    //		y.style.display="none";
+                    //	}
+                    //	else
+                    //	{
+                    /*var z=s.replace(/EVOE/, "EVOK");*/
+                    var y = document.getElementById(z);
+                    y.disabled = true;
+                    //y.style.display="none";
+                    //y.style.width="145";
+
+                    /*var a=s.replace(/EVOE/, "EVOM");*/
+                    //var b=document.getElementById(a);
+                    //b.disabled = true;
+                    //b.style.display="none";
+                    //b.style.width="145";
+                    //	}
+
+                }
+
+            }
+        }
+    }
+</script>
+
+<tr>
+    <td align="left" bgcolor="khaki" colspan="2"><font size="2"><b>&nbsp;TOTAAL VAN DE MAAND</b></font></td>
+    <td align="right" bgcolor="khaki" colspan="6"><font size="2"><b>16:00&nbsp;</b></font></td>
+    <td align="right" bgcolor="khaki"><font size="2">&nbsp;</font></td>
+    <!--<TD align=right bgColor=khaki><FONT size=2><B>&nbsp;0&nbsp;</B></font></TD>
+    <TD align=right bgColor=khaki><FONT size=2><B>&nbsp;0&nbsp;</B></font></TD>-->
+</tr>
+<tr>
+
+    <td bgcolor="green" nowrap="" width="1%"><font color="khaki" size="2"><b>Unlocked</b></font></td>
+    <td colspan="9" bgcolor="khaki" align="right">
+
+        <input type="button" value="Help Codes" name="btnHelpCodes" onclick="ShowHelpCodes('DU')">
+
+
+        <input type="button" value="Bewaren" name="button43" onclick="Save(this.form)">
+
+    </td>
+
+</tr>
+<!--
+
+-->
+</tbody>

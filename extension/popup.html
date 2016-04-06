@@ -1,0 +1,48 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+<head>
+    <title>Getting Started Extension's Popup</title>
+    <style>
+        body {
+            font-family: "Segoe UI", "Lucida Grande", Tahoma, sans-serif;
+            font-size: 100%;
+            min-width: 100px;
+        }
+    </style>
+
+    <!--
+      - JavaScript and HTML must be in separate files: see our Content Security
+      - Policy documentation[1] for details and explanation.
+      -
+      - [1]: https://developer.chrome.com/extensions/contentSecurityPolicy
+     -->
+    <script src="popup.js"></script>
+</head>
+<body>
+<div>
+    <label for="hours">Hours</label>
+    <input id="hours" type="number" value="8">
+</div>
+<div>
+    <label for="type">Type</label>
+    <select id="type">
+        <option value="COM">COM</option>
+        <option value="ITH">ITH</option>
+        <option selected value="ITO">ITO</option>
+        <option value="OPL">OPL</option>
+        <option value="OVU">OVU</option>
+        <option value="">&nbsp;</option>
+    </select>
+</div>
+<div>
+    <label for="comment">Comment</label>
+    <input type="text" id="comment" value="">
+</div>
+<button id="btnFill">Fill in timesheets</button>
+</body>
+</html>
