@@ -1,6 +1,6 @@
 {
   "author": "Ryan de Gruyter",
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "Refined EvoBizz",
   "description": "This extension will fill in your timesheets with default values",
   "minimum_chrome_version": "49",
@@ -18,5 +18,5 @@
     "default_icon": "jworks.png",
     "default_popup": "popup.html"
   },
-  "version": "0.1"
+  "version": "0.2"
 }
